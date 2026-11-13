@@ -1,0 +1,71 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.json
+.aws/
+
+# Packet captures can contain sensitive network data
+*.pcap
+*.pcapng
+*.cap
+captures/
+
+# Local reports, logs, and exports
+reports/
+logs/
+*.log
+*.jsonl
+
+# Locally trained models and serialized data
+models/*.joblib
+models/*.pkl
+models/*.pickle
+*.joblib
+*.pkl
+*.pickle
+data/
+
+# Local workspace metadata
+.agents/
+.codex/

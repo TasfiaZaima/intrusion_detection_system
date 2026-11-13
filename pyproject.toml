@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intrusion-detection-system"
+version = "0.1.0"
+description = "A simple and explainable intrusion detection system"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["scapy>=2.5.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+ids = "intrusion_detection_system.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["intrusion_detection_system*"]
